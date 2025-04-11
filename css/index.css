@@ -1,2 +1,78 @@
 @import "./normalize.css";
 @import "./main.css";
+
+.hero {
+  padding-top: 56px;
+  padding-bottom: 250px;
+  background-image: url(../images/bg-pattern-home-1.svg),
+    url(../images/bg-pattern-home-2.svg);
+  background-repeat: no-repeat;
+  background-position: top 70px left -100px, bottom 0 right 165px;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.hero__title {
+  font-size: 100px;
+  line-height: 100px;
+}
+.hero__description {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+}
+.hero__description__text {
+}
+.hero-divider {
+  margin-bottom: 79px;
+  background-color: #79c8c7;
+}
+.testemonials {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  i {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+}
+.testemonials-container {
+}
+.container {
+}
+.testemonials-title {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 932px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 56px;
+}
+
+.testemonials-list {
+  display: flex;
+  text-align: center;
+}
+.testemonials-item {
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 36px;
+  width: 350px;
+}
+.testemonials-description {
+  margin-bottom: 24px;
+}
+.testemonials-name {
+  font-size: 18px;
+  color: #79c8c7;
+  margin-bottom: 2px;
+}
+.testemonials-avatar {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+}
