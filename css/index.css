@@ -30,6 +30,7 @@
   background-color: #79c8c7;
 }
 .testemonials {
+  background-color: #002529;
   padding-top: 140px;
   padding-bottom: 140px;
   i {
@@ -71,8 +72,43 @@
   margin-bottom: 2px;
 }
 .testemonials-avatar {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
   border: 2px solid #c4fffe;
+}
+.features {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #012f34;
+  .container {
+    display: flex;
+  }
+}
+.features-container {
+}
+
+.features-not__hero__title {
+  font-size: normal;
+  line-height: 48px;
+}
+.divider {
+  display: flex;
+  width: 50px;
+  height: 4px;
+}
+.features-divider {
+  margin-bottom: 79px;
+  background-color: #F67E7E;
+}
+.not-hero__title {
+}
+.features-list {
+}
+.features-images {
+}
+.features-items {
+}
+.features-types {
 }
