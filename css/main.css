@@ -71,7 +71,9 @@ ol {
 h1 {
   margin: 0;
 }
-
+.red-text {
+  color: #f67e7e;
+}
 .container {
   width: 100%;
   max-width: 1170px;
@@ -177,6 +179,10 @@ h1 {
   flex-direction: column;
 }
 .hero__description__text {
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 18px;
+  letter-spacing: 0;
 }
 .divider {
   display: flex;
@@ -229,16 +235,6 @@ h1 {
   }
 }
 
-.site__logo__image {
-}
-.sitenav {
-}
-.sitenav__list {
-}
-.sitenav__item {
-}
-.sitenav__link {
-}
 .footer__info {
   margin-right: auto;
   opacity: 0.6;
@@ -255,7 +251,7 @@ h1 {
   justify-content: flex-end;
   gap: 16px;
   margin-bottom: 51px;
-  align-items:center;
+  align-items: center;
 }
 .footer__social__item {
 }

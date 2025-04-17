@@ -12,11 +12,14 @@
 .hero__container {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 .hero__title {
   font-size: 100px;
   line-height: 100px;
+}
+.red-text {
+  color: #f67e7e;
 }
 .hero__description {
   width: 445px;
@@ -39,8 +42,6 @@
   }
 }
 .testemonials-container {
-}
-.container {
 }
 .testemonials-title {
   font-size: 48px;
@@ -79,36 +80,36 @@
   border: 2px solid #c4fffe;
 }
 .features {
+  background-color: #012f34;
   padding-top: 140px;
   padding-bottom: 140px;
-  background-color: #012f34;
-  .container {
-    display: flex;
-  }
 }
 .features-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.features-not__hero__title {
-  font-size: normal;
-  line-height: 48px;
-}
 .divider {
-  display: flex;
-  width: 50px;
-  height: 4px;
 }
 .features-divider {
-  margin-bottom: 79px;
-  background-color: #F67E7E;
 }
-.not-hero__title {
+.features-typography {
+  color: #fff;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.features-not__hero__title {
 }
 .features-list {
 }
 .features-images {
 }
 .features-items {
+}
+.red-text {
 }
 .features-types {
 }
